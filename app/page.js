@@ -1,17 +1,17 @@
-// We import components from other files like this
-import MyCard from "./components/MyCard";
+import GuestForm from "./components/GuestForm";
+import TotalGuestCount from "./components/TotalGuestCount";
 
-// In a `page.js` file, we usually call the page function `Home`
 export default function Home() {
   return (
+    <body bgcolor="powderblue">
     <div>
-      <p> Hello World!</p>
-      <MyCard
-        // Example of passing in props (properties) to the card
-        title="My React Card"
-        text="This is some text that is inside of the card"
-        buttonText="Click me!"
-      ></MyCard>
+      <h1> <font color="brown"> <center> Welcome to the Full Stack at Brown Holloween party registration! </center> </font> </h1>
+      <GuestForm />
+      <br /> <br />
+      <hr /> <hr />
+      <br /> <br />
+      <TotalGuestCount />
     </div>
+    </body>
   );
 }
