@@ -17,10 +17,9 @@ function TotalGuestCount() {
     }
 
     // You can use a side effect to the page loading by entering an empty [] dependency array
-    /* useEffect(() => {
-        getAllStudents()
-    }, [])
-    */
+    useEffect(() => {
+        getTotalGuestCount()
+    })
 
     return (
         <div>
@@ -30,7 +29,7 @@ function TotalGuestCount() {
                 Reload
             </button>
 	    <br /> <br />
-	    <h3> {totalGuestCount} guests so far! </h3>
+	    <h3> <font color="Magenta"> {totalGuestCount} </font> <font color="Blue"> guests so far! </font> </h3>
         </div>
     )
 }

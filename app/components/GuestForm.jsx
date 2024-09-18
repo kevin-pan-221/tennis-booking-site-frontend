@@ -34,7 +34,6 @@ function GuestForm() {
                 <div>
                     <label htmlFor="name">Name: </label>
                     <input 
-                    name="name"
                     value={name}
                     onChange = {(event) => setName(event.target.value)}
                     />
@@ -57,7 +56,7 @@ function GuestForm() {
 	    <div>
                 <br/> <br/>
 	    </div>
-            <button color="blue" onClick={onSubmit}>Register</button>
+            <button onClick={onSubmit}>Register</button>
         </div>
     )
 }
