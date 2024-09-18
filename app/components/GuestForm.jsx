@@ -9,12 +9,12 @@ function GuestForm() {
             email,
             phoneNumber,
         }
-        const res = await fetch ("http://localhost:8080/students", {
+        const res = await fetch ("http://localhost:8080/guest", {
             method: "POST",
             headers: {
                 "content-type": "application/json"
             },
-            body: JSON.stringify(newStudentBody)
+            body: JSON.stringify(guestBody)
         })
         {/*
              CHALLENGE: Can you get the table to reload whenever you call onSubmit? 
