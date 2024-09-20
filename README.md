@@ -1,5 +1,8 @@
-# FSAB Bootcamp 24 Event Registration Frontend Implementation
+# Tennis Court Booking Site
 
-## How to use this repo
+## Work in progress
 
-- Checkout to the branch of your choosing with `git checkout <branchName>` followed by `git pull`. If you're switching to a new branch, run `npm i`. To run the frontend, run `npm run dev` and navigate to [http://localhost:3000](http://localhost:3000). A webpage will allow you to query current total guest number and enter new guest info to the database.
+- Click into register and fill out form to register a player
+- ^In the future: click on tennis court to select a court to book
+- Click into deregister and fill in phone number to deregister a player
+- Click into total guest count to see how many players are using the courts
